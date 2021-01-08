@@ -1,0 +1,10 @@
+<h3><%= @poems.count %> Poems</h3>
+
+<% @poems.each do |poem| %>
+    <section class='results'>
+      <p class="title"><%= poem.title %></p>
+      <p class="author"><%= poem.author %></p>
+      <p class="lines"><%= poem.lines %></p>
+      <p class="tones"><!%= poem.tones %></p>
+    </section>
+<% end %>

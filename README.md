@@ -20,7 +20,7 @@ For each poem I should see
 - The poem(as a single string)
 
 I should also see:
-- The tone or tones for each poem
+- The tone or tones for each poem (as provided by Watson)
 ```
 
 ### Versions
